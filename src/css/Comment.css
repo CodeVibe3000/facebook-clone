@@ -1,0 +1,31 @@
+.comment {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.comment__message {
+    margin-left: 10px;
+    background-color: #f2f3f5;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.comment__message > p {
+    margin-left: 5px;
+}
+
+.comment__user {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.comment__user:hover {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: underline;
+}
